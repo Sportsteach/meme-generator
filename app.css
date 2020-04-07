@@ -1,0 +1,93 @@
+body{
+    font-family: 'Bangers', sans-serif;
+}
+
+label{
+    width: 220px;
+    display: inline-table;
+    font-size: 30px;
+}
+input {
+    width: 10%;
+    padding: 8px 20px;
+    margin: 8px 100;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.774);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.headcontainer{
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(142, 196, 129);
+}
+
+.img {
+    border-style: solid;
+    border-color: rgb(142, 196, 129);
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 400px;
+    width: auto;
+    margin: 10px;
+}
+
+.container{
+	position: relative;
+	display: inline-block;
+}
+
+.container:hover .edit {
+    display: block;
+}
+
+.edit {
+
+    padding-top: 30px;	
+	padding-right: 35px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+.edit a {
+    color: white;
+}
+
+
+.container {
+    position: relative;
+    max-height: 350px;
+    font-family: impact, sans-serif;
+    text-align: left;
+   color: white;
+   text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.top-text {
+    font-size: min(max(16px, 4vw), 22px);
+    position: relative;
+    text-align: center;
+    top: -328px;
+    left: 40px;
+    max-width: 250px; 
+  }
+.bottom-text {
+    font-size: min(max(16px, 4vw), 22px);
+    position: relative;
+    text-align: center;
+    bottom: 130px;
+    left: 40px;
+    max-width: 250px;
+  }
+ 
+div.container :hover{
+    filter: grayscale(100%);
+    
+}
